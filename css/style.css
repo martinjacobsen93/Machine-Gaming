@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* MEDIA QUERIES */
+@media only screen and (min-width: 320px) {
+  .main-login__link {
+    width: 80%; }
+  .main-login__link--crearCuenta {
+    width: 70%; }
+  .main-container__boton {
+    width: 70%; } }
+
+@media only screen and (max-width: 414px) {
+  .navbar-toggler {
+    margin-top: 8px; } }
+
+@media only screen and (max-width: 480px) {
+  .nav__logo {
+    display: none !important; } }
+
+@media only screen and (min-width: 720px) {
+  .main-container__boton {
+    width: 70%; } }
+
+@media only screen and (min-width: 1100px) {
+  /* USÉ LOS MEDIA QUERIES PARA AGRANDAR O ACHICAR LA LETRA DEPENDIENDO DEL ANCHO DE LA PANTALLA, EL RESTO LO HICE CON LAS CLASES DE BOOTSTRAP*/
+  .main__text {
+    font-size: 1.1rem; }
+  .main-container__boton {
+    width: 55%; } }
+
+@media only screen and (min-width: 1440px) {
+  .main__text {
+    font-size: 1.2rem; }
+  .main-login__link {
+    width: 55%; }
+  .main-login__link--crearCuenta {
+    width: 50%; }
+  .main-container__boton {
+    width: 53%; } }
+
+/* NAV */
+.nav .nav__titulo {
+  transition: all 1.2s;
+  color: white; }
+  .nav .nav__titulo:hover {
+    background: white;
+    color: rgba(0, 0, 0, 0.815); }
+
+.nav .nav__logo {
+  color: white;
+  transition: all .3s; }
+  .nav .nav__logo:hover {
+    color: grey; }
+
+.nav .nav-item .nav-item__link {
+  transition: .3s;
+  font-weight: bold;
+  font-size: 18px; }
+  .nav .nav-item .nav-item__link:hover {
+    color: grey !important; }
+
+.nav .dropdown-menu .dropdown-menu__link {
+  color: white;
+  font-weight: bold;
+  transition: all .6s; }
+  .nav .dropdown-menu .dropdown-menu__link:hover {
+    background-color: rgba(0, 0, 0, 0.815); }
+
+/* MAIN */
+main .main-container .main-container__link {
+  transition: .3s; }
+  main .main-container .main-container__link:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold; }
+
+main .main-container .main-container__text {
+  margin-top: 5px;
+  font-size: 19px; }
+
+main .main-container .main-img-container .main-img-container__img {
+  padding-top: 35px; }
+  main .main-container .main-img-container .main-img-container__img:hover {
+    color: grey; }
+
+/* CONTACTO */
+.main-contacto .contacto-container .main-container__link--telefono:hover {
+  color: rgba(26, 26, 231, 0.89); }
+
+.main-contacto .contacto-container .main-container__link--mail:hover {
+  color: red; }
+
+.main-contacto .contacto-container .main-container__link--whatsapp:hover {
+  color: green; }
+
+.main-contacto .contacto-container .main-container__text--contacto {
+  border: 2px solid white;
+  margin: 10px;
+  border-radius: 5px; }
+
+/* LOGIN */
+.main-login .main-container__form {
+  background-color: rgba(0, 0, 0, 0.404);
+  margin-top: 40px;
+  border: 3px solid white;
+  border-radius: 5px; }
+
+.main-login .main-login__link {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all .4s;
+  border: 2px solid rgba(0, 0, 0, 0.774); }
+  .main-login .main-login__link:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.103);
+    border: 2px solid white; }
+
+/* CREAR CUENTA */
+.main-container__form .main-container__boton {
+  color: black;
+  background-color: white;
+  padding: 15px;
+  border-width: 2px;
+  border-radius: 5px;
+  transition: all .5s; }
+  .main-container__form .main-container__boton:hover {
+    background-color: #3d3b3b;
+    color: white;
+    border: 2px solid white; }
+
+.main-container__form .form-control {
+  transition: all .3s; }
+  .main-container__form .form-control:hover {
+    background-color: rgba(102, 98, 98, 0.192);
+    color: white; }
+  .main-container__form .form-control:active {
+    background-color: rgba(102, 98, 98, 0.192); }
+
+/* FOOTER */
+footer .redes__subcontainer .redes__red-social-logo {
+  height: 40px;
+  width: 40px;
+  margin: auto 10px;
+  transition: 0.45s; }
+  footer .redes__subcontainer .redes__red-social-logo:hover {
+    height: 60px;
+    width: 60px; }
+
+footer .copyright .copyright__text {
+  color: #746a6a;
+  transition: all .8s; }
+  footer .copyright .copyright__text:hover {
+    color: white;
+    cursor: pointer; }
+
+.container-404 {
+  padding-top: 20px; }
+
+.error404-text {
+  border: 2px solid white;
+  border-radius: 6px;
+  width: 40%;
+  color: white; }
+
+.btn-error {
+  background-color: white;
+  border: 2px solid black;
+  transition: all .5s;
+  width: 200px; }
+  .btn-error:hover {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    border-color: white; }
+
+@media only screen and (min-width: 320px) {
+  .container-404__img {
+    width: 280px; }
+  .error404-text {
+    width: 90%; } }
+
+@media only screen and (min-width: 480px) {
+  .container-404__img {
+    width: 450px; }
+  .error404-text {
+    width: 80%; } }
+
+@media only screen and (min-width: 720px) {
+  .container-404__img {
+    width: 600px; } }
+
+@media only screen and (min-width: 1000px) {
+  .container-404__img {
+    width: 650px; }
+  .error404-text {
+    width: 60%; } }
+
+@media only screen and (min-width: 1400px) {
+  .error404-text {
+    width: 50%; } }
+
+/* CAROUSEL */
+.carousel .carousel__inner {
+  max-height: 61rem; }

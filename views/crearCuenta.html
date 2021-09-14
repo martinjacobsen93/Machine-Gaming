@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Crear cuenta - Machine Gaming E-Shop</title>
+</head>
+
+<body>
+    <!-- NAV NAV NAV NAV NAV -->
+    <nav class="nav navbar navbar-expand-md navbar-light bg-dark p-4 border-bottom border-light border-2" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-gamepad fs-2 pe-3 nav__logo"></i>
+                <span class="fs-4 fw-bold p-2 border border-2 border-light rounded-pill nav__titulo">Machine
+                    Gaming E-Shop</span>
+            </a>
+            <button class="navbar-toggler bg-light text-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-item__link nav-link active text-light" aria-current="page"
+                            href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link nav-link text-light" href="./login.html">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link nav-link text-light" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item__link dropdown-toggle text-light" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html#sony">PS5</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html">X-BOX</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html#nintendo">Nintendo</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link border-bottom border-light border-1"
+                                    href="./productos.html">PC Gamer</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html">Stock <i>!new</i></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item__link text-light" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- HERO  HERO  HERO  HERO -->
+    <div class="hero container-fluid bg-dark border-bottom border-light border-2">
+        <div class="row d-flex justify-content-center">
+            <h2 class="col-12 p-1 text-light text-center">Crear nueva cuenta
+            </h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="fs-5 col-12 text-light text-center fs-4">Para crear una nueva cuenta por favor ingrese los datos
+                solicitados en los campos vacíos
+            </p>
+        </div>
+    </div>
+    <main class="main bg-dark main-login container-fluid border-bottom border-2 border-light p-5">
+        <!-- MAIN  MAIN  MAIN  MAIN -->
+        <div class="row justify-content-center main-container text-center">
+            <form
+                class="col-12 col-md-8 col-lg-7 col-xl-5 p-5 main-container__form d-flex flex-column align-items-center"
+                novalidate>
+                <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label text-light fs-5 p-1">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom02" class="form-label text-light fs-5 p-1">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustomUsername" class="form-label text-light fs-5 p-1">Username</label>
+                    <div class="input-group has-validation">
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Por favor elige un nombre de usuario.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label text-light fs-5 p-1">Ciudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Por favor introduzca una ciudad válida
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom04" class="form-label text-light fs-5 p-1">Localidad</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Selecciona tu localidad</option>
+                        <option>Avellaneda</option>
+                        <option>Wilde</option>
+                        <option>Quilmes</option>
+                        <option>Belgrano</option>
+                        <option>Beccar</option>
+                        <option>San Telmo</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom05" class="form-label text-light fs-5 p-1">C. Postal</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                        Ingrese un código postal válido.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="terms p-3">
+                        <input class="form-check-input" type="checkbox" id="invalidCheck" required>
+                        <label class="form-check-label text-light" for="invalidCheck">
+                            Acepto términos y condiciones
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn main-container__boton" type="submit">Aceptar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--FOOTER FOOTER FOOTER FOOTER-->
+    <footer class="footer bg-dark p-4">
+        <div class="row justify-content-center redes">
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../img/facebook-logo.png" alt="facebook-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="../img/youtube-logo.png" alt="youtube-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="../img/twitter-logo.png" alt="twitter-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../img/instagram-logo.png" alt="instagram-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+        </div>
+        <div class="row justify-content-center copyright">
+            <p class="col-12 col-md-6 col-lg-3 pt-3 text-center copyright__text">Copyright | Machine Gaming Inc.
+            </p>
+        </div>
+
+    </footer>
+
+    <!--         SCRIPT DE BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <!--         SCRIPT DE FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/98e5aa6c33.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

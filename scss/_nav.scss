@@ -1,0 +1,46 @@
+/* NAV */
+
+.nav {
+    .nav__titulo {
+        transition: all 1.2s;
+        color: white;
+
+        &:hover {
+            background: white;
+            color: rgba(0, 0, 0, 0.815);
+        }
+    }
+
+    .nav__logo {
+        color: white;
+        transition: all .3s;
+
+        &:hover {
+            color: grey;
+        }
+    }
+
+    .nav-item {
+        .nav-item__link {
+            transition: .3s;
+            font-weight: bold;
+            font-size: 18px;
+    
+            &:hover {
+                color: grey !important;
+            }
+        }
+    }
+
+    .dropdown-menu {
+        .dropdown-menu__link {
+            color: white;
+            font-weight: bold;
+            transition: all .6s;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.815);
+            }
+        }
+    }
+}

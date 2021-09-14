@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Productos - Machine Gaming E-Shop</title>
+</head>
+
+<body>
+    <!-- NAV NAV NAV NAV NAV -->
+    <nav class="nav navbar navbar-expand-md navbar-light bg-dark p-4 border-bottom border-light border-2" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-gamepad fs-2 pe-3 nav__logo"></i>
+                <span class="fs-4 fw-bold p-2 border border-2 border-light rounded-pill nav__titulo">Machine
+                    Gaming E-Shop</span>
+            </a>
+            <button class="navbar-toggler bg-light text-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-item__link nav-link active text-light" aria-current="page"
+                            href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link nav-link text-light" href="./login.html">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link nav-link text-light" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item__link dropdown-toggle text-light" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html#sony">PS5</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html">X-BOX</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html#nintendo">Nintendo</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link border-bottom border-light border-1"
+                                    href="./productos.html">PC Gamer</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html">Stock <i>!new</i></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item__link text-light" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- HERO  HERO  HERO  HERO -->
+    <div class="hero container-fluid bg-dark border-bottom border-light border-2">
+        <div class="row d-flex justify-content-center">
+            <h2 class="col-12 p-1 text-light text-center">Productos
+            </h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="fs-5 col-12 text-light text-center fs-4">En esta sección podrás ver y comprar lo más nuevo en
+                tecnología gamer
+            </p>
+        </div>
+    </div>
+    <main class="main bg-dark">
+        <!-- MAIN  MAIN  MAIN  MAIN -->
+        <div class="main-container container-fluid border-bottom border-2 border-light pb-3">
+            <div class="row justify-content-center">
+                <h2 class="col-11 col-sm-10 my-2 text-center text-light fs-3 p-3 border-light border-2 border bg-primary rounded" id="sony">SONY</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center m-1">
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/productos/ps5-negra.jpg" class="card-img-top" alt="ps-black">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-4">PlayStation 5</h5>
+                                <p class="card-text">PlayStation 5 1TB memoria SSD ultrarápida, juegos físicos</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/productos/ps5-negra.jpg" class="card-img-top" alt="ps-black">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-4">PlayStation 5</h5>
+                                <p class="card-text">PlayStation 5 1TB memoria SSD ultrarápida, juegos digitales</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container container-fluid border-bottom border-2 border-dark mt-3">
+                <div class="row justify-content-center">
+                    <h2 class="col-11 col-sm-10 my-2 text-center text-light fs-3 p-3 border-light border-2 border bg-danger rounded" id="nintendo">NINTENDO</h2>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4 m-1">
+                    <div class="col">
+                        <div class="card">
+                            <img src="../img/productos/switch-amarilla.jpg" class="card-img-top" alt="nintendo-switch">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-4">Nintendo Switch Lite</h5>
+                                <p class="card-text">Consola portátil de última generación de Nintendo</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../img/productos/switch-amarilla.jpg" class="card-img-top" alt="nintendo-switch">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-4">Nintendo Switch Lite</h5>
+                                <p class="card-text">Consola portátil de última generación de Nintendo</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../img/productos/switch-amarilla.jpg" class="card-img-top" alt="nintendo-switch">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-4">Nintendo Switch Lite</h5>
+                                <p class="card-text">Consola portátil de última generación de Nintendo</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </main>
+    <!--FOOTER FOOTER FOOTER FOOTER-->
+    <footer class="footer bg-dark p-4">
+        <div class="row justify-content-center redes">
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../img/facebook-logo.png" alt="facebook-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="../img/youtube-logo.png" alt="youtube-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="../img/twitter-logo.png" alt="twitter-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../img/instagram-logo.png" alt="instagram-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+        </div>
+        <div class="row justify-content-center copyright">
+            <p class="col-12 col-md-6 col-lg-3 pt-3 text-center copyright__text">Copyright | Machine Gaming Inc.
+            </p>
+        </div>
+
+    </footer>
+
+    <!--         SCRIPT DE BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <!--         SCRIPT DE FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/98e5aa6c33.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

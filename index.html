@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home - Machine Gaming E-Shop</title>
+</head>
+<body>
+    <!-- NAV NAV NAV NAV NAV -->
+    <nav class="nav navbar navbar-expand-md navbar-light bg-dark p-4 border-bottom border-light border-2" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-gamepad fs-2 pe-3 nav__logo"></i>
+                <span class="fs-4 fw-bold p-2 border border-2 border-light rounded-pill nav__titulo">Machine
+                    Gaming E-Shop</span>
+            </a>
+            <button class="navbar-toggler bg-light text-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-item__link nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link nav-link text-light" href="./views/login.html">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link nav-link text-light" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item__link dropdown-toggle text-light" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dropdown-menu__link" href="./views/productos.html#sony">PS5</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./views/productos.html">X-BOX</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./views/productos.html#nintendo">Nintendo</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link border-bottom border-light border-1"
+                                    href="./views/productos.html">PC Gamer</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./views/productos.html">Stock <i>!new</i></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item__link text-light" href="./views/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- HERO  HERO  HERO  HERO -->
+    <div class="hero container-fluid bg-dark border-bottom border-light border-2">
+        <div class="row d-flex justify-content-center">
+            <h2 class="col-12 p-1 text-light text-center">Bienvenido a la Tienda Online
+            </h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="fs-5 col-12 text-light text-center fs-4">Aquí podrás encontrar los
+                mejores precios
+                del mundo gamer a precios de inigualables!
+            </p>
+        </div>
+    </div>
+    <!-- CAROUSEL CAROUSEL CAROUSEL CAROUSEL -->
+    <div id="carouselExampleControls" class="carousel slide border-bottom border-light border-2"
+        data-bs-ride="carousel">
+        <div class="carousel-inner carousel__inner">
+            <div class="carousel-item active">
+                <img src="./img/carousel/slide1.jpg" class="d-block w-100" alt="slide1">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/carousel/slide2.jpg" class="d-block w-100" alt="slide2">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/carousel/slide3.jpg" class="d-block w-100" alt="slide3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <main class="main bg-dark">
+        <!-- MAIN  MAIN  MAIN  MAIN -->
+        <div class="main-container container-fluid border-bottom border-2 border-dark">
+            <div class="row justify-content-center">
+                <h2 class="col-8 my-2 text-center text-light fs-3 p-3 border-bottom">Armá tu computadora gamer
+                    customizada</h2>
+            </div>
+            <div class="main-img-container text-center">
+                <i class="fas fa-cogs text-light fs-1 main-img-container__img"></i>
+            </div>
+            <div class="row justify-content-center p-2">
+                <p
+                    class="col-10 col-sm-8 col-lg-6 text-center text-light main-container__text main-container__text p-4">
+                    En Machine Gaming te
+                    armamos
+                    la computadora gamer que siempre quisiste, a tu gusto y medida.
+                    Por si fuera poco, el servicio de armado ya se encuentra incluído dentro del presupuesto de tu PC.
+                    Además, si querés agregarle alguna pieza que no se consigue en el país, nosotros te la traemos!</p>
+            </div>
+            <div class="row justify-content-center">
+                <a href="#"
+                    class="btn btn-dark mb-3 col-6 col-md-4 col-lg-2 col-xl-2 border-light main-container__link">Ver
+                    más</a>
+            </div>
+        </div>
+        <div class="main-container container-fluid border-bottom border-2 border-dark">
+            <div class="row justify-content-center">
+                <h2 class="col-8 my-2 text-center text-light fs-3 p-3 border-bottom">Black Friday</h2>
+            </div>
+            <div class="main-img-container text-center">
+                <i class="fas fa-percentage text-light fs-1 main-img-container__img"></i>
+            </div>
+            <div class="row justify-content-center p-2">
+                <p class="col-10 col-sm-8 col-lg-7 text-center text-light main-container__text p-4">Descuentos por el
+                    Black Friday
+                    están a la vuelta de la esquina, y no queremos que te quedes afuera! Comprando de manera online
+                    podrás obtener
+                    descuentos de 30%, 40% y hasta 50% en productos seleccionados. De remate!</p>
+            </div>
+            <div class="row justify-content-center ">
+                <a href="#"
+                    class="btn btn-dark mb-3 col-6 col-md-4 col-lg-2 col-xl-2 border-light main-container__link">Ver
+                    más</a>
+            </div>
+        </div>
+        <div class="main-container container-fluid border-bottom border-2 border-light">
+            <div class="row justify-content-center">
+                <h2 class="col-8 my-2 text-center text-light fs-3 p-3 border-bottom main-container__titulo">Nuevos
+                    Ingresos</h2>
+            </div>
+            <div class="main-img-container text-center">
+                <i class="fas fa-laptop text-light fs-1 main-img-container__img"></i>
+            </div>
+            <div class="row justify-content-center">
+                <p class="col-10 col-sm-8 col-lg-6 text-center text-light main-container__text p-4">Luego de una larga
+                    espera
+                    debido a una falta de stock a nivel global, llegaron las nuevas y tan ansiadas tarjetas de video RTX
+                    3080 y 3090. Además, podrás encontrar todo lo nuevo en periféricos, monitores OLED 165hz/240hz y
+                    mucho más.
+                    <br>
+                </p>
+            </div>
+            <div class="row justify-content-center pb-5">
+                <a href="./views/productos.html#sony"
+                    class="btn btn-dark mb-3 col-6 col-md-4 col-lg-2 col-xl-2 border-light main-container__link">Ver
+                    más</a>
+            </div>
+        </div>
+    </main>
+    <!--FOOTER FOOTER FOOTER FOOTER-->
+    <footer class="footer bg-dark p-4">
+        <div class="row justify-content-center redes">
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="./img/facebook-logo.png" alt="facebook-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="./img/youtube-logo.png" alt="youtube-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="./img/twitter-logo.png" alt="twitter-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+            <div class="col-2 col-lg-1 text-center redes__subcontainer">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="./img/instagram-logo.png" alt="instagram-logo" class="redes__red-social-logo">
+                </a>
+            </div>
+        </div>
+        <div class="row justify-content-center copyright">
+            <p class="col-12 col-md-6 col-lg-3 pt-3 text-center copyright__text">Copyright | Machine Gaming Inc.
+            </p>
+        </div>
+
+    </footer>
+
+    <!--         SCRIPT DE BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <!--         SCRIPT DE FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/98e5aa6c33.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
