@@ -13,7 +13,7 @@
 
 <body>
     <!-- NAV NAV NAV NAV NAV -->
-    <nav class="nav navbar navbar-expand-md navbar-light bg-dark p-4 border-bottom border-light border-2" id="menu">
+    <nav class="nav navbar navbar-expand-lg navbar-light bg-dark p-4 border-bottom border-light border-2" id="menu">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <i class="fas fa-gamepad fs-2 pe-3 nav__logo"></i>
@@ -34,9 +34,9 @@
                     <li class="nav-item">
                         <a class="nav-item__link nav-link text-light" href="./login.html">Login</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-item__link nav-link text-light" href="#">Shop</a>
-                    </li> -->
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link nav-item__link dropdown-toggle text-light" href="#" id="navbarDropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,14 +44,16 @@
                         </a>
                         <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item dropdown-menu__link" href="./productos.html#sony">PS5</a></li>
-                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html">X-BOX</a></li>
-                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html#nintendo">Nintendo</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html#xbox">X-BOX</a></li>
+                            <li><a class="dropdown-item dropdown-menu__link"
+                                    href="./productos.html#nintendo">Nintendo</a></li>
                             <li><a class="dropdown-item dropdown-menu__link border-bottom border-light border-1"
                                     href="./productos.html">PC Gamer</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html">Stock <i>!new</i></a>
+                            <li><a class="dropdown-item dropdown-menu__link" href="./productos.html">Stock
+                                    <i>!new</i></a>
                             </li>
                         </ul>
                     </li>
@@ -74,70 +76,102 @@
             </p>
         </div>
     </div>
-    <main class="main bg-dark">
-        <!-- MAIN  MAIN  MAIN  MAIN -->
-        <div class="main-container container-fluid border-bottom border-2 border-light pb-3">
+    <!-- MAIN  MAIN  MAIN  MAIN -->
+    <main class="main bg-dark border-bottom border-2 border-light pb-2">
+        <div class="main-productos container-fluid pb-3">
             <div class="row justify-content-center">
-                <h2 class="col-11 col-sm-10 my-2 text-center text-light fs-3 p-3 border-light border-2 border bg-primary rounded" id="sony">SONY</h2>
+                <h2 class="col-10 col-md-9 my-2 text-center fs-3 p-3 main-productos__titulo main-productos__titulo--sony" id="sony">PLAYSTATION 5
+                </h2>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center m-1">
                 <div class="col">
                     <div class="card">
                         <img src="../img/productos/ps5-negra.jpg" class="card-img-top" alt="ps-black">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fs-4">PlayStation 5</h5>
-                                <p class="card-text">PlayStation 5 1TB memoria SSD ultrarápida, juegos físicos</p>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">PlayStation 5</h5>
+                            <p class="card-text">PlayStation 5 1TB memoria SSD ultrarápida, juegos físicos</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
                         <img src="../img/productos/ps5-negra.jpg" class="card-img-top" alt="ps-black">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fs-4">PlayStation 5</h5>
-                                <p class="card-text">PlayStation 5 1TB memoria SSD ultrarápida, juegos digitales</p>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">PlayStation 5</h5>
+                            <p class="card-text">PlayStation 5 1TB memoria SSD ultrarápida, juegos digitales</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="main-container container-fluid border-bottom border-2 border-dark mt-3">
-                <div class="row justify-content-center">
-                    <h2 class="col-11 col-sm-10 my-2 text-center text-light fs-3 p-3 border-light border-2 border bg-danger rounded" id="nintendo">NINTENDO</h2>
-                </div>
+        </div>
+        <div class="main-productos container-fluid border-bottom border-2 border-dark mt-3">
+            <div class="row justify-content-center">
+                <h2 class="col-10 col-md-9 my-2 text-center fs-3 p-3 main-productos__titulo main-productos__titulo--nintendo" id="nintendo">
+                    NINTENDO</h2>
+            </div>
 
-                <div class="row row-cols-1 row-cols-md-3 g-4 m-1">
-                    <div class="col">
-                        <div class="card">
-                            <img src="../img/productos/switch-amarilla.jpg" class="card-img-top" alt="nintendo-switch">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fs-4">Nintendo Switch Lite</h5>
-                                <p class="card-text">Consola portátil de última generación de Nintendo</p>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 m-1">
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/productos/switch-amarilla.jpg" class="card-img-top" alt="nintendo-switch">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Nintendo Switch Lite</h5>
+                            <p class="card-text">Consola portátil de última generación de Nintendo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="../img/productos/switch-amarilla.jpg" class="card-img-top" alt="nintendo-switch">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fs-4">Nintendo Switch Lite</h5>
-                                <p class="card-text">Consola portátil de última generación de Nintendo</p>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/productos/switch-amarilla.jpg" class="card-img-top" alt="nintendo-switch">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Nintendo Switch Lite</h5>
+                            <p class="card-text">Consola portátil de última generación de Nintendo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="../img/productos/switch-amarilla.jpg" class="card-img-top" alt="nintendo-switch">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fs-4">Nintendo Switch Lite</h5>
-                                <p class="card-text">Consola portátil de última generación de Nintendo</p>
-                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/productos/switch-amarilla.jpg" class="card-img-top" alt="nintendo-switch">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Nintendo Switch Lite</h5>
+                            <p class="card-text">Consola portátil de última generación de Nintendo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-productos container-fluid pb-3">
+            <div class="row justify-content-center">
+                <h2 class="col-10 col-md-9 my-2 text-center fs-3 p-3 main-productos__titulo main-productos__titulo--xbox" id="xbox">MICROSOFT
+                </h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center m-1">
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/productos/ps5-negra.jpg" class="card-img-top" alt="ps-black">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">PlayStation 5</h5>
+                            <p class="card-text">PlayStation 5 1TB memoria SSD ultrarápida, juegos físicos</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/productos/ps5-negra.jpg" class="card-img-top" alt="ps-black">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">PlayStation 5</h5>
+                            <p class="card-text">PlayStation 5 1TB memoria SSD ultrarápida, juegos digitales</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <!--FOOTER FOOTER FOOTER FOOTER-->

@@ -88,6 +88,9 @@ main {
             border: 2px solid white;
         }
     }
+    .main-login__link--ingresar {
+        background-color: rgba(219, 218, 130, 0.562)
+    }
 }
 
 /* CREAR CUENTA */
@@ -117,6 +120,33 @@ main {
 
         &:active {
             background-color: rgba(102, 98, 98, 0.192);
+        }
+    }
+}
+
+/* PRODUCTOS PRODUCTOS PRODUCTOS PRODUCTOS*/
+
+.main-productos {
+    .main-productos__titulo {
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        color: white;
+        transition: all .3s;
+        &:hover {
+            background-color: rgba(29, 29, 102, 0.671);
+            transform: skew(-15deg);
+        }
+    }
+    
+    .main-productos__titulo--nintendo {
+        &:hover {
+            background-color: rgba(255, 0, 0, 0.521);
+        }
+    }
+    
+    .main-productos__titulo--xbox {
+        &:hover {
+            background-color: rgba(0, 255, 76, 0.521);
         }
     }
 }
