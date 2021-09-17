@@ -222,3 +222,8 @@ footer .copyright .copyright__text {
 /* CAROUSEL */
 .carousel .carousel__inner {
   max-height: 61rem; }
+
+.blackFriday-container__img {
+  border: 2px solid white;
+  margin: 7px;
+  padding: 0; }
