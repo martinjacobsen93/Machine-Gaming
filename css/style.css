@@ -157,6 +157,12 @@ main .main-container .main-img-container .main-img-container__img {
 .main-productos .main-productos__titulo--xbox:hover {
   background-color: rgba(0, 255, 76, 0.521); }
 
+/* BLACK FRIDAY BLACK FRIDAY */
+.blackFriday-container .blackFriday-container__img {
+  border: 2px solid white;
+  margin: 7px;
+  padding: 0; }
+
 /* FOOTER */
 footer .redes__subcontainer .redes__red-social-logo {
   height: 40px;
@@ -222,8 +228,3 @@ footer .copyright .copyright__text {
 /* CAROUSEL */
 .carousel .carousel__inner {
   max-height: 61rem; }
-
-.blackFriday-container__img {
-  border: 2px solid white;
-  margin: 7px;
-  padding: 0; }

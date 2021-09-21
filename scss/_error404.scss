@@ -1,25 +1,27 @@
+$colorTexto: white;
+
 .container-404 {
     padding-top: 20px;
 }
 
 .error404-text {
-    border: 2px solid white;
+    border: 2px solid $colorTexto;
     border-radius: 6px;
     width: 40%;
     // background: linear-gradient(to right, violet, black);
-    color: white;
+    color: $colorTexto;
 }
 
 .btn-error {
-    background-color: white;
+    background-color: $colorTexto;
     border: 2px solid black;
     transition: all .5s;
     width: 200px;
 
     &:hover {
         background-color: rgba(0, 0, 0, 0.473);
-        color: white;
-        border-color: white;
+        color: $colorTexto;
+        border-color: $colorTexto;
 
     }
 }

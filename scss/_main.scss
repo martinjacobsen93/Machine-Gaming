@@ -1,5 +1,7 @@
 /* MAIN */
 
+$colorTexto: white;
+
 main {
 
     .main-container {
@@ -8,7 +10,7 @@ main {
 
             &:hover {
                 color: black;
-                background-color: white;
+                background-color: $colorTexto;
                 font-weight: bold;
             }
         }
@@ -53,7 +55,7 @@ main {
         }
 
         .main-container__text--contacto {
-            border: 2px solid white;
+            border: 2px solid $colorTexto;
             margin: 10px;
             border-radius: 5px;
         }
@@ -71,12 +73,12 @@ main {
     .main-container__form {
         background-color: rgba(0, 0, 0, 0.404);
         margin-top: 40px;
-        border: 3px solid white;
+        border: 3px solid $colorTexto;
         border-radius: 5px;
     }
 
     .main-login__link {
-        @include boton(black, white);
+        @include boton(black, $colorTexto);
         text-decoration: none;
         padding: 5px;
         border-radius: 5px;
@@ -84,8 +86,8 @@ main {
         border: 2px solid rgba(0, 0, 0, 0.774);
 
         &:hover {
-            @include boton(white, rgba(0, 0, 0, 0.103));
-            border: 2px solid white;
+            @include boton($colorTexto, rgba(0, 0, 0, 0.103));
+            border: 2px solid $colorTexto;
         }
     }
     .main-login__link--ingresar {
@@ -97,7 +99,7 @@ main {
 
 .main-container__form {
     .main-container__boton {
-        @include boton(black, white);
+        @include boton(black, $colorTexto);
         padding: 15px;
         border-width: 2px;
         border-radius: 5px;
@@ -105,8 +107,8 @@ main {
 
         &:hover {
             background-color: rgb(61, 59, 59);
-            color: white;
-            border: 2px solid white;
+            color: $colorTexto;
+            border: 2px solid $colorTexto;
         }
     }
 
@@ -115,7 +117,7 @@ main {
 
         &:hover {
             background-color: rgba(102, 98, 98, 0.192);
-            color: white;
+            color: $colorTexto;
         }
 
         &:active {
@@ -128,9 +130,9 @@ main {
 
 .main-productos {
     .main-productos__titulo {
-        border-top: 2px solid white;
-        border-bottom: 2px solid white;
-        color: white;
+        border-top: 2px solid $colorTexto;
+        border-bottom: 2px solid $colorTexto;
+        color: $colorTexto;
         transition: all .3s;
         &:hover {
             background-color: rgba(29, 29, 102, 0.671);
@@ -155,7 +157,7 @@ main {
 
 .blackFriday-container {
     .blackFriday-container__img {
-        border: 2px solid white;
+        border: 2px solid $colorTexto;
         margin: 7px;
         padding: 0;
     }

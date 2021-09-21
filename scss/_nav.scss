@@ -1,18 +1,19 @@
 /* NAV */
+$colorTexto: white;
 
 .nav {
     .nav__titulo {
         transition: all 1.2s;
-        color: white;
+        color: $colorTexto;
 
         &:hover {
-            background: white;
+            background: $colorTexto;
             color: rgba(0, 0, 0, 0.815);
         }
     }
 
     .nav__logo {
-        color: white;
+        color: $colorTexto;
         transition: all .3s;
 
         &:hover {
@@ -34,7 +35,7 @@
 
     .dropdown-menu {
         .dropdown-menu__link {
-            color: white;
+            color: $colorTexto;
             font-weight: bold;
             transition: all .6s;
 
