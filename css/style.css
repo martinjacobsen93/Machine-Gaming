@@ -164,14 +164,14 @@ main .main-container .main-img-container .main-img-container__img {
   padding: 0; }
 
 /* FOOTER */
-footer .redes__subcontainer .redes__red-social-logo {
+footer .redes .redes__link .redes__red-social-logo {
   height: 40px;
   width: 40px;
   margin: auto 10px;
   transition: 0.45s; }
-  footer .redes__subcontainer .redes__red-social-logo:hover {
-    height: 60px;
-    width: 60px; }
+  footer .redes .redes__link .redes__red-social-logo:hover {
+    height: 53px;
+    width: 53px; }
 
 footer .copyright .copyright__text {
   color: #746a6a;

@@ -1,19 +1,22 @@
 /* FOOTER */
 
 footer {
-    .redes__subcontainer {
-        .redes__red-social-logo {
-            height: 40px;
-            width: 40px;
-            margin: auto 10px;
-            transition: 0.45s;
+    .redes {
+        .redes__link {
+            .redes__red-social-logo {
+                height: 40px;
+                width: 40px;
+                margin: auto 10px;
+                transition: 0.45s;
 
-            &:hover {
-                height: 60px;
-                width: 60px;
+                &:hover {
+                    height: 53px;
+                    width: 53px;
+                }
             }
         }
     }
+
     .copyright {
         .copyright__text {
             color: rgb(116, 106, 106);
