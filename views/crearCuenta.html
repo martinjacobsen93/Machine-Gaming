@@ -85,38 +85,58 @@
             <form
                 class="col-12 col-md-8 col-lg-7 col-xl-5 p-5 main-container__form d-flex flex-column align-items-center"
                 novalidate>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 col-xl-10">
                     <label for="validationCustom01" class="form-label text-light fs-5 p-1">Nombre</label>
-                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Ingresa tu nombre" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 col-xl-10">
                     <label for="validationCustom02" class="form-label text-light fs-5 p-1">Apellido</label>
-                    <input type="text" class="form-control" id="validationCustom02" required>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Ingresa tu apellido" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 col-xl-10">
                     <label for="validationCustomUsername" class="form-label text-light fs-5 p-1">Username</label>
                     <div class="input-group has-validation">
                         <input type="text" class="form-control" id="validationCustomUsername"
-                            aria-describedby="inputGroupPrepend" required>
+                            aria-describedby="inputGroupPrepend" placeholder="Ingresa tu nombre de usuario" required>
                         <div class="invalid-feedback">
                             Por favor elige un nombre de usuario.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <label for="validationCustom03" class="form-label text-light fs-5 p-1">Ciudad</label>
-                    <input type="text" class="form-control" id="validationCustom03" required>
-                    <div class="invalid-feedback">
-                        Por favor introduzca una ciudad válida
+                <div class="col-12 col-md-6 col-xl-10">
+                    <label for="validationPassword" class="form-label text-light fs-5 p-1">Contraseña</label>
+                    <div class="input-group has-validation">
+                        <input type="password" class="form-control" id="validationPassword"
+                            aria-describedby="inputGroupPrepend" placeholder="Ingresa tu contraseña" required>
+                        <div class="invalid-feedback">
+                            Por favor ingrese una contraseña válida.
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 col-xl-10">
+                    <label for="validationPassword2" class="form-label text-light fs-5 p-1">Confirmar contraseña</label>
+                    <div class="input-group has-validation">
+                        <input type="password" class="form-control" id="validationPassword2"
+                            aria-describedby="inputGroupPrepend" placeholder="Ingresa tu contraseña" required>
+                        <div class="invalid-feedback">
+                            La contraseña no coincide con la anterior.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-10">
+                    <label for="validationCustom03" class="form-label text-light fs-5 p-1">Ciudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" placeholder="Ingresa tu ciudad de residencia" required>
+                    <div class="invalid-feedback">
+                        Por favor introduzca una ciudad válida.
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-10">
                     <label for="validationCustom04" class="form-label text-light fs-5 p-1">Localidad</label>
                     <select class="form-select" id="validationCustom04" required>
                         <option selected disabled value="">Selecciona tu localidad</option>
@@ -128,12 +148,12 @@
                         <option>San Telmo</option>
                     </select>
                     <div class="invalid-feedback">
-                        Please select a valid state.
+                        Por favor seleccione una localidad válida.
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 col-xl-10">
                     <label for="validationCustom05" class="form-label text-light fs-5 p-1">C. Postal</label>
-                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Ingresa el código postal" required>
                     <div class="invalid-feedback">
                         Ingrese un código postal válido.
                     </div>

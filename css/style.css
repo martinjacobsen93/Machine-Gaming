@@ -97,7 +97,7 @@ main .main-container .main-img-container .main-img-container__img {
   margin: 10px;
   border-radius: 5px; }
 
-/* LOGIN */
+/* LOGIN LOGIN LOGIN LOGIN*/
 .main-login .main-container__form {
   background-color: rgba(0, 0, 0, 0.404);
   margin-top: 40px;
@@ -146,13 +146,14 @@ main .main-container .main-img-container .main-img-container__img {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   color: white;
-  transition: all .3s; }
+  transition: all .5s;
+  user-select: none; }
   .main-productos .main-productos__titulo:hover {
-    background-color: rgba(29, 29, 102, 0.671);
-    transform: skew(-15deg); }
+    transform: skew(-15deg);
+    background-color: rgba(29, 29, 102, 0.671); }
 
 .main-productos .main-productos__titulo--nintendo:hover {
-  background-color: rgba(255, 0, 0, 0.521); }
+  background-color: rgba(253, 11, 11, 0.637); }
 
 .main-productos .main-productos__titulo--xbox:hover {
   background-color: rgba(0, 255, 76, 0.521); }
@@ -162,11 +163,23 @@ main .main-container .main-img-container .main-img-container__img {
   color: black;
   border-color: rgba(139, 76, 76, 0.349); }
 
+.main-productos .card {
+  transition: all .5s; }
+  .main-productos .card:hover {
+    border-color: rgba(58, 44, 44, 0.705); }
+    .main-productos .card:hover .card-title {
+      transition: all .5s;
+      color: rgba(43, 34, 34, 0.671); }
+
 /* BLACK FRIDAY BLACK FRIDAY */
 .blackFriday-container .blackFriday-container__img {
   border: 2px solid white;
   margin: 7px;
   padding: 0; }
+
+/* CAROUSEL INDEX */
+.carousel .carousel__inner {
+  max-height: 61rem; }
 
 /* FOOTER */
 footer .redes .redes__link .redes__red-social-logo {
@@ -229,7 +242,3 @@ footer .copyright .copyright__text {
 @media only screen and (min-width: 1400px) {
   .error404-text {
     width: 50%; } }
-
-/* CAROUSEL */
-.carousel .carousel__inner {
-  max-height: 61rem; }

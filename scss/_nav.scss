@@ -1,5 +1,6 @@
 /* NAV */
-$colorTexto: white;
+$colorTexto: white; // variable declarada de color del texto
+$colorHoverNav: grey; // variable declarada para el color del hover en nav-items.
 
 .nav {
     .nav__titulo {
@@ -17,7 +18,7 @@ $colorTexto: white;
         transition: all .3s;
 
         &:hover {
-            color: grey;
+            color: $colorHoverNav;
         }
     }
 
@@ -28,7 +29,7 @@ $colorTexto: white;
             font-size: 18px;
     
             &:hover {
-                color: grey !important;
+                color: $colorHoverNav !important;
             }
         }
     }

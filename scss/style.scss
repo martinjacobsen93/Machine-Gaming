@@ -1,15 +1,6 @@
 @import "media";
 @import "nav";
 @import "main";
+@import "carousel";
 @import "footer";
 @import "error404";
-
-
-
-/* CAROUSEL */
-
-.carousel {
-    .carousel__inner {
-        max-height: 61rem;
-    }
-}

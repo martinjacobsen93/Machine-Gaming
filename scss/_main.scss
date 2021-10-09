@@ -1,6 +1,6 @@
 /* MAIN */
 
-$colorTexto: white;
+$colorTexto: white; // variable declarada de color del texto
 
 main {
 
@@ -67,7 +67,7 @@ main {
     background-color: $bg-color;
 }
 
-/* LOGIN */
+/* LOGIN LOGIN LOGIN LOGIN*/
 
 .main-login {
     .main-container__form {
@@ -133,16 +133,17 @@ main {
         border-top: 2px solid $colorTexto;
         border-bottom: 2px solid $colorTexto;
         color: $colorTexto;
-        transition: all .3s;
+        transition: all .5s;
+        user-select: none;
         &:hover {
-            background-color: rgba(29, 29, 102, 0.671);
             transform: skew(-15deg);
+            background-color: rgba(29, 29, 102, 0.671);
         }
     }
     
     .main-productos__titulo--nintendo {
         &:hover {
-            background-color: rgba(255, 0, 0, 0.521);
+            background-color: rgba(253, 11, 11, 0.637);
         }
     }
     
@@ -156,6 +157,16 @@ main {
             background-color: rgba(255, 255, 255, 0.911);
             color: black;
             border-color: rgba(139, 76, 76, 0.349);
+        }
+    }
+    .card {
+        transition: all .5s;
+        &:hover {
+            border-color: rgba(58, 44, 44, 0.705);
+            .card-title {
+                transition: all .5s;
+                color: rgba(43, 34, 34, 0.671);
+            }
         }
     }
 }
