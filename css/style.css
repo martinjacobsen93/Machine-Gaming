@@ -168,7 +168,7 @@ footer .copyright .copyright__text {
 .container-404 {
   padding-top: 20px; }
   .container-404 .container-404__img {
-    animation: animacionError404 1 2s .1s; }
+    animation: animacionError404 1 2s .5s; }
 
 @keyframes animacionError404 {
   0% {
