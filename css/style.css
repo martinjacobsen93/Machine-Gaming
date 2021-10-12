@@ -134,7 +134,7 @@ main .main-container .main-img-container .main-img-container__img {
     width: 100%; }
   .main-productos .card-item:hover {
     border-color: rgba(58, 44, 44, 0.705); }
-    .main-productos .card-item:hover .card-title {
+    .main-productos .card-item:hover .card-item__title {
       transition: all .5s;
       color: rgba(43, 34, 34, 0.671); }
 
