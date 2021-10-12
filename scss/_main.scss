@@ -1,6 +1,10 @@
 /* MAIN */
 
 $colorTexto: white; // variable declarada de color del texto
+@mixin boton($color, $bg-color) {
+    color: $color;
+    background-color: $bg-color;
+}
 
 main {
 
@@ -60,11 +64,6 @@ main {
             border-radius: 5px;
         }
     }
-}
-
-@mixin boton($color, $bg-color) {
-    color: $color;
-    background-color: $bg-color;
 }
 
 /* LOGIN LOGIN LOGIN LOGIN*/
@@ -164,6 +163,9 @@ main {
         border: 2px solid $colorTexto;
         border-radius: 3px;
         background-color: $colorTexto;
+        .card-item__img {
+            width: 100%;
+        }
         &:hover {
             border-color: rgba(58, 44, 44, 0.705);
             .card-title {
