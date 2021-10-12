@@ -2,6 +2,17 @@ $colorTexto: white; // variable declarada de color del texto
 
 .container-404 {
     padding-top: 20px;
+    .container-404__img {
+        animation: animacionError404 1 2s .1s;
+        @keyframes animacionError404 {
+            0% {
+                transform: rotate(360deg);
+            }
+            50% {
+                transform: rotate(-28deg);
+            }
+        }
+    }
 }
 
 .error404-text {

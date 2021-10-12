@@ -1,42 +1,4 @@
 @charset "UTF-8";
-/* MEDIA QUERIES */
-@media only screen and (min-width: 320px) {
-  .main-login__link {
-    width: 80%; }
-  .main-login__link--crearCuenta {
-    width: 70%; }
-  .main-container__boton {
-    width: 70%; } }
-
-@media only screen and (max-width: 414px) {
-  .navbar-toggler {
-    margin-top: 8px; } }
-
-@media only screen and (max-width: 480px) {
-  .nav__logo {
-    display: none !important; } }
-
-@media only screen and (min-width: 720px) {
-  .main-container__boton {
-    width: 70%; } }
-
-@media only screen and (min-width: 1100px) {
-  /* USÉ LOS MEDIA QUERIES PARA AGRANDAR O ACHICAR LA LETRA DEPENDIENDO DEL ANCHO DE LA PANTALLA, EL RESTO LO HICE CON LAS CLASES DE BOOTSTRAP*/
-  .main__text {
-    font-size: 1.1rem; }
-  .main-container__boton {
-    width: 55%; } }
-
-@media only screen and (min-width: 1440px) {
-  .main__text {
-    font-size: 1.2rem; }
-  .main-login__link {
-    width: 55%; }
-  .main-login__link--crearCuenta {
-    width: 50%; }
-  .main-container__boton {
-    width: 53%; } }
-
 /* NAV */
 .nav .nav__titulo {
   transition: all 1.2s;
@@ -163,11 +125,14 @@ main .main-container .main-img-container .main-img-container__img {
   color: black;
   border-color: rgba(139, 76, 76, 0.349); }
 
-.main-productos .card {
-  transition: all .5s; }
-  .main-productos .card:hover {
+.main-productos .card-item {
+  transition: all .5s;
+  border: 2px solid white;
+  border-radius: 3px;
+  background-color: white; }
+  .main-productos .card-item:hover {
     border-color: rgba(58, 44, 44, 0.705); }
-    .main-productos .card:hover .card-title {
+    .main-productos .card-item:hover .card-title {
       transition: all .5s;
       color: rgba(43, 34, 34, 0.671); }
 
@@ -200,6 +165,14 @@ footer .copyright .copyright__text {
 
 .container-404 {
   padding-top: 20px; }
+  .container-404 .container-404__img {
+    animation: animacionError404 1 2s .1s; }
+
+@keyframes animacionError404 {
+  0% {
+    transform: rotate(360deg); }
+  50% {
+    transform: rotate(-28deg); } }
 
 .error404-text {
   border: 2px solid white;
@@ -242,3 +215,82 @@ footer .copyright .copyright__text {
 @media only screen and (min-width: 1400px) {
   .error404-text {
     width: 50%; } }
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 320px) {
+  .main-login__link {
+    width: 80%; }
+  .main-login__link--crearCuenta {
+    width: 70%; }
+  .main-container__boton {
+    width: 70%; }
+  .card-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; }
+    .card-items .card-item {
+      width: 90%;
+      padding-bottom: 5px; }
+      .card-items .card-item .card-item__img {
+        width: 100%; } }
+
+@media only screen and (max-width: 414px) {
+  .navbar-toggler {
+    margin-top: 8px; } }
+
+@media only screen and (max-width: 480px) {
+  .nav__logo {
+    display: none !important; } }
+
+@media only screen and (min-width: 480px) {
+  .card-item {
+    width: 75%; } }
+
+@media only screen and (min-width: 720px) {
+  .main-container__boton {
+    width: 70%; }
+  .card-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .card-items .card-item {
+      width: 30%;
+      min-height: 355px; } }
+
+@media only screen and (min-width: 885px) {
+  .card-items .card-item {
+    width: 29%;
+    min-height: 380px; } }
+
+@media only screen and (min-width: 1100px) {
+  /* USÉ LOS MEDIA QUERIES PARA AGRANDAR O ACHICAR LA LETRA DEPENDIENDO DEL ANCHO DE LA PANTALLA, EL RESTO LO HICE CON LAS CLASES DE BOOTSTRAP*/
+  .main__text {
+    font-size: 1.1rem; }
+  .main-container__boton {
+    width: 55%; } }
+
+@media only screen and (min-width: 1235px) {
+  .card-items .card-item {
+    width: 29%;
+    min-height: 395px; } }
+
+@media only screen and (min-width: 1440px) {
+  .main__text {
+    font-size: 1.2rem; }
+  .main-login__link {
+    width: 55%; }
+  .main-login__link--crearCuenta {
+    width: 50%; }
+  .main-container__boton {
+    width: 53%; } }
+
+@media only screen and (min-width: 1600px) {
+  .card-items .card-item {
+    width: 29%;
+    min-height: 400px; } }
+
+@media only screen and (min-width: 1695px) {
+  .card-items .card-item {
+    width: 29%;
+    min-height: 450px; } }

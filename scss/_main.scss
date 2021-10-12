@@ -159,8 +159,11 @@ main {
             border-color: rgba(139, 76, 76, 0.349);
         }
     }
-    .card {
+    .card-item {
         transition: all .5s;
+        border: 2px solid $colorTexto;
+        border-radius: 3px;
+        background-color: $colorTexto;
         &:hover {
             border-color: rgba(58, 44, 44, 0.705);
             .card-title {

@@ -4,11 +4,30 @@
      .main-login__link {
          width: 80%;
      }
+
      .main-login__link--crearCuenta {
-        width: 70%;
-    }
+         width: 70%;
+     }
+
      .main-container__boton {
          width: 70%;
+     }
+
+     .card-items {
+         //CARD DE PRODUCTOS
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: 20px;
+
+         .card-item {
+             width: 90%;
+             padding-bottom: 5px;
+
+             .card-item__img {
+                 width: 100%;
+             }
+         }
      }
  }
 
@@ -24,9 +43,37 @@
      }
  }
 
+ @media only screen and (min-width: 480px) {
+     .card-item {
+         //CARD DE PRODUCTOS
+         width: 75%;
+     }
+ }
+
  @media only screen and (min-width: 720px) {
-    .main-container__boton {
-        width: 70%;
+     .main-container__boton {
+         width: 70%;
+     }
+
+     .card-items {
+         //CARDS DE PRODUCTOS
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+
+         .card-item {
+             width: 30%;
+             min-height: 355px;
+         }
+     }
+ }
+
+ @media only screen and (min-width: 885px) {
+    .card-items {
+        .card-item {
+            width: 29%;
+            min-height: 380px;
+        }
     }
 }
 
@@ -36,23 +83,56 @@
      .main__text {
          font-size: 1.1rem;
      }
+
      .main-container__boton {
-        width: 55%;
-    }
-    
+         width: 55%;
+     }
+
+ }
+
+ @media only screen and (min-width: 1235px) {
+     .card-items {
+
+         //CARDS DE PRODUCTOS
+         .card-item {
+             width: 29%;
+             min-height: 395px;
+         }
+     }
  }
 
  @media only screen and (min-width: 1440px) {
      .main__text {
          font-size: 1.2rem;
      }
+
      .main-login__link {
-        width: 55%;
-    }
-    .main-login__link--crearCuenta {
-        width: 50%;
-    }
+         width: 55%;
+     }
+
+     .main-login__link--crearCuenta {
+         width: 50%;
+     }
+
      .main-container__boton {
-        width: 53%;
-    }
+         width: 53%;
+     }
  }
+
+ @media only screen and (min-width: 1600px) {
+    .card-items {
+        .card-item {
+            width: 29%;
+            min-height: 400px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1695px) {
+    .card-items {
+        .card-item {
+            width: 29%;
+            min-height: 450px;
+        }
+    }
+}
